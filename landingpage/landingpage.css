@@ -46,6 +46,34 @@ html{
     font-size: 1.5rem;
 }
 
+.quiz-cateogory{
+   background-color: #2d4059;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+.quiz-cateogory .card{
+    border-radius: 2rem;
+}
+.card-title{
+    color: black;
+}
+
+.card-text h5,
+.card-text p {
+margin: 4px 0;
+}
+
+.card-text p{
+    font-size: 12px;
+}
+.card-footer button{
+    background-color: #ff5722;
+    border-radius: 1rem;
+}
 @media only screen and (max-width:900px){
    html {
        font-size: 80%;
@@ -61,5 +89,12 @@ html{
 @media only screen and (max-width:450px){
     html {
         font-size: 60%;
+    }
+
+    .header{
+        padding: 5rem;
+    }
+    .quiz-cateogory{
+        padding: 1rem;
     }
 }
