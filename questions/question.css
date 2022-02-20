@@ -1,49 +1,52 @@
 @import url(../landingpage/landingpage.css);
 @import url(../rules/rules.css);
 
-:root{
-    --success:rgb(16, 189, 16);
-    --wrong:rgb(255, 5, 5);
+:root {
+    --success: rgb(16, 189, 16);
+    --wrong: rgb(255, 5, 5);
+    --light-primary-lue:#50627a;
 }
 
 
-body{
- background-color: var(--primary-blue);
+body {
+    background-color: var(--primary-blue);
 }
 
-.question-continer{
-   
+.question-continer {
+
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     color: var(--third-white);
 }
-.question{
+
+.question {
     margin: 3rem;
 }
-.question-box{
+
+.question-box {
     padding: 0 10rem;
-    
+
 }
 
-.question-n-score{
+.question-n-score {
     display: flex;
     justify-content: space-between;
-     margin: 3rem;
+    margin: 3rem;
 }
 
-.score{
+.score {
     text-align: center;
 }
 
-.option{
+.option {
 
-     padding: 1rem;
-     border-radius: 2rem;
-     margin: 1rem 0;
-      text-align: center;
-      background-color:#50627a;
+    padding: 1rem;
+    border-radius: 2rem;
+    margin: 1rem 0;
+    text-align: center;
+    background-color: var(--light-primary-lue)
 }
 
 .result-continer {
@@ -56,10 +59,10 @@ body{
     padding: 2rem;
 }
 
-.success{
+.success {
     background-color: var(--success);
 }
 
-.wrong{
+.wrong {
     background-color: var(--wrong);
 }
