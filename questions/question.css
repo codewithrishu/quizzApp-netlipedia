@@ -4,7 +4,7 @@
 :root {
     --success: rgb(16, 189, 16);
     --wrong: rgb(255, 5, 5);
-    --light-primary-lue:#50627a;
+    --light-primary-lue: #50627a;
 }
 
 
@@ -13,7 +13,6 @@ body {
 }
 
 .question-continer {
-
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -27,7 +26,6 @@ body {
 
 .question-box {
     padding: 0 10rem;
-
 }
 
 .question-n-score {
@@ -41,7 +39,6 @@ body {
 }
 
 .option {
-
     padding: 1rem;
     border-radius: 2rem;
     margin: 1rem 0;
