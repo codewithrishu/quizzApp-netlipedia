@@ -1,12 +1,18 @@
 :root {
     --primary-blue: #2d4059;
     --secondry-orange: #ff5722;
+    --third-white:#eeeeee;
     --white: #fff;
     --black: black;
 }
 
 html {
     font-size: 90%;
+}
+
+body{
+    padding: 0;
+    margin: 0;
 }
 
 .comp-mynav {

@@ -1,0 +1,61 @@
+@import url(../landingpage/landingpage.css);
+
+
+.rules {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: var(--primary-blue);
+
+}
+
+.rules-box {
+    padding: 4rem;
+    text-align: center;
+    border-radius: 2rem;
+
+}
+
+.rules-box h2 {
+    color: var(--secondry-orange);
+}
+
+.rule-points {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+    background-color: var(--third-white);    
+    border-radius: 2rem;
+    margin: 1rem;
+
+
+}
+
+.rule-points h6 {
+    margin: 0;
+    font-size: 1rem;
+}
+
+.rule-points .material-icons {
+    color: var(--secondry-orange);
+}
+
+.btns{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.btns button{
+    padding: 1rem;
+    border: none;
+    border-radius: 2rem;
+    background-color: var(--secondry-orange);
+    
+}
+.btns a{
+    text-decoration: none;
+    color: var(--white);
+}
