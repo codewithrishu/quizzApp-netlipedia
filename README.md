@@ -1,6 +1,6 @@
 <div align="center">
 
-# quizzApp-Netlipedia
+# QuizzApp-Netlipedia
 quizz app of web series
 
 </div>
