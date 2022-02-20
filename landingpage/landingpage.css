@@ -1,0 +1,125 @@
+:root {
+    --primary-blue: #2d4059;
+    --secondry-orange: #ff5722;
+    --white: #fff;
+    --black: black;
+}
+
+html {
+    font-size: 90%;
+}
+
+.comp-mynav {
+    width: auto;
+    padding: 10px 3rem;
+    grid-area: nav;
+    background-color: var(--primary-blue);
+}
+
+.comp-mynav-logo {
+    font-size: 2rem;
+}
+
+.menu {
+    margin-left: auto;
+}
+
+.menu ul {
+
+    font-size: 1rem;
+    padding: 0 .5rem;
+    margin: 0 1rem
+}
+
+.menu li {
+    font-size: 1.2rem;
+    list-style-type: none;
+    display: inline-block;
+    padding: 0 5px;
+    color: var(--white);
+}
+
+.header {
+    display: flex;
+    padding: 10rem;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.header-img img {
+    width: 35rem;
+}
+
+.header-content {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.quiz-cateogory {
+    background-color: var(--primary-blue);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.quiz-cateogory .card {
+    border-radius: 2rem;
+}
+
+.card-title {
+    color: var(--black);
+}
+
+.card-text h5,
+.card-text p {
+    margin: 4px 0;
+}
+
+.card-text p {
+    font-size: 12px;
+}
+
+.card-footer button {
+    background-color: var(--secondry-orange);
+    border-radius: 1rem;
+}
+
+footer {
+    text-align: center;
+}
+
+footer a {
+    text-decoration: none;
+    color: var(--secondry-orange);
+}
+
+@media only screen and (max-width:900px) {
+    html {
+        font-size: 80%;
+    }
+
+    .header {
+        flex-direction: column;
+
+
+    }
+
+}
+
+@media only screen and (max-width:450px) {
+    html {
+        font-size: 60%;
+    }
+
+    .header {
+        padding: 5rem;
+    }
+
+    .quiz-cateogory {
+        padding: 1rem;
+    }
+}
